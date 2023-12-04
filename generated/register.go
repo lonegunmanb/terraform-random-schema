@@ -12,6 +12,7 @@ var DataSources map[string]*tfjson.Schema
 func init() {
 	resources := make(map[string]*tfjson.Schema, 0)
 	dataSources := make(map[string]*tfjson.Schema, 0)  
+	resources["random_bytes"] = resource.RandomBytesSchema()  
 	resources["random_id"] = resource.RandomIdSchema()  
 	resources["random_integer"] = resource.RandomIntegerSchema()  
 	resources["random_password"] = resource.RandomPasswordSchema()  

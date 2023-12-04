@@ -61,7 +61,7 @@ const randomId = `{
         "type": "string"
       }
     },
-    "description": "\nThe resource ` + "`" + `random_id` + "`" + ` generates random numbers that are intended to be\nused as unique identifiers for other resources.\n\nThis resource *does* use a cryptographic random number generator in order\nto minimize the chance of collisions, making the results of this resource\nwhen a 16-byte identifier is requested of equivalent uniqueness to a\ntype-4 UUID.\n\nThis resource can be used in conjunction with resources that have\nthe ` + "`" + `create_before_destroy` + "`" + ` lifecycle flag set to avoid conflicts with\nunique names during the brief period where both the old and new resources\nexist concurrently.\n",
+    "description": "\nThe resource ` + "`" + `random_id` + "`" + ` generates random numbers that are intended to be\nused as unique identifiers for other resources. If the output is considered \nsensitive, and should not be displayed in the CLI, use ` + "`" + `random_bytes` + "`" + `\ninstead.\n\nThis resource *does* use a cryptographic random number generator in order\nto minimize the chance of collisions, making the results of this resource\nwhen a 16-byte identifier is requested of equivalent uniqueness to a\ntype-4 UUID.\n\nThis resource can be used in conjunction with resources that have\nthe ` + "`" + `create_before_destroy` + "`" + ` lifecycle flag set to avoid conflicts with\nunique names during the brief period where both the old and new resources\nexist concurrently.\n",
     "description_kind": "plain"
   },
   "version": 0
