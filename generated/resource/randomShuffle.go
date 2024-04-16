@@ -35,7 +35,7 @@ const randomShuffle = `{
       },
       "result": {
         "computed": true,
-        "description": "Random permutation of the list of strings given in ` + "`" + `input` + "`" + `.",
+        "description": "Random permutation of the list of strings given in ` + "`" + `input` + "`" + `. The number of elements is determined by ` + "`" + `result_count` + "`" + ` if set, or the number of elements in ` + "`" + `input` + "`" + `.",
         "description_kind": "plain",
         "type": [
           "list",

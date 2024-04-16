@@ -68,14 +68,14 @@ const randomString = `{
       "number": {
         "computed": true,
         "deprecated": true,
-        "description": "Include numeric characters in the result. Default value is ` + "`" + `true` + "`" + `. **NOTE**: This is deprecated, use ` + "`" + `numeric` + "`" + ` instead.",
+        "description": "Include numeric characters in the result. Default value is ` + "`" + `true` + "`" + `. If ` + "`" + `number` + "`" + `, ` + "`" + `upper` + "`" + `, ` + "`" + `lower` + "`" + `, and ` + "`" + `special` + "`" + ` are all configured, at least one of them must be set to ` + "`" + `true` + "`" + `. **NOTE**: This is deprecated, use ` + "`" + `numeric` + "`" + ` instead.",
         "description_kind": "plain",
         "optional": true,
         "type": "bool"
       },
       "numeric": {
         "computed": true,
-        "description": "Include numeric characters in the result. Default value is ` + "`" + `true` + "`" + `.",
+        "description": "Include numeric characters in the result. Default value is ` + "`" + `true` + "`" + `. If ` + "`" + `numeric` + "`" + `, ` + "`" + `upper` + "`" + `, ` + "`" + `lower` + "`" + `, and ` + "`" + `special` + "`" + ` are all configured, at least one of them must be set to ` + "`" + `true` + "`" + `.",
         "description_kind": "plain",
         "optional": true,
         "type": "bool"
