@@ -141,7 +141,7 @@ func refreshSchema() *version.Version {
 	}
 	v, err := schema.RefreshSchema("generated")
 	if err != nil {
-		log.Fatalf("Failed to refresh AzureRM schema: %v", err)
+		log.Fatalf("Failed to refresh Random schema: %v", err)
 	}
 	return v
 }
